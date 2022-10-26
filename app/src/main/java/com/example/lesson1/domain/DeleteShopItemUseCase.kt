@@ -4,6 +4,10 @@ class DeleteShopItemUseCase (private val shopListReposity:ShopListRepository) {
     fun deleteShopItem(shopItem: ShopItem)
     {
         shopListReposity.deleteShopItem(shopItem)
+		
+		
+		
+		
 
     }
 }
